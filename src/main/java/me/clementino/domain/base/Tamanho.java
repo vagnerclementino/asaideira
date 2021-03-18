@@ -20,7 +20,7 @@ public enum Tamanho {
         return descricao;
     }
 
-    private Tamanho(int codigo, String descricao) {
+    Tamanho(int codigo, String descricao) {
         this.codigo = codigo;
         this.descricao = descricao;
     }

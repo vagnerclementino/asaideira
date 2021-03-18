@@ -4,6 +4,7 @@ import me.clementino.domain.base.Acai;
 import me.clementino.domain.base.Tamanho;
 
 public class AcaiNaBarca extends Acai {
+
     public AcaiNaBarca(Tamanho tamanho) {
         super.setTamanho(tamanho);
         super.setDescricao("Acaí na barca");

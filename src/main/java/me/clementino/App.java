@@ -5,7 +5,6 @@ import me.clementino.domain.acompanhamentos.AcaiNaBarcaComMorangoELeiteEmPo;
 import me.clementino.domain.acompanhamentos.AcaiNaTigelaComMorango;
 import me.clementino.domain.acompanhamentos.AcaiNoCopoComMorango;
 import me.clementino.domain.base.Acai;
-import me.clementino.domain.base.Tamanho;
 import me.clementino.domain.tipos.AcaiNaBarca;
 import me.clementino.domain.tipos.AcaiNaTigela;
 import me.clementino.domain.tipos.AcaiNoCopo;
