@@ -1,24 +1,18 @@
 package me.clementino.solution.acompanhamentos;
 
-import me.clementino.v1.base.Acai;
-
-public class Morango extends AcompanhamentoDecorator {
+public class Morango extends PadraoDeProjeto {
 
     private final double preco;
 
-    public Morango(Acai acai) {
-        this.acai = acai;
+    public Morango() {
         preco = 4.99;
     }
 
-
-    @Override
     public String getDescricao() {
-        return acai.getDescricao() + " com morango";
+        return " com morango";
     }
 
-    @Override
     public double getPreco() {
-        return acai.getPreco() + preco;
+        return preco;
     }
 }

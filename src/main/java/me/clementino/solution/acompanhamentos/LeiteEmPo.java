@@ -1,23 +1,19 @@
 package me.clementino.solution.acompanhamentos;
 
-import me.clementino.v1.base.Acai;
-
-public class LeiteEmPo extends AcompanhamentoDecorator {
+public class LeiteEmPo extends PadraoDeProjeto {
 
     private final double preco;
 
-    public LeiteEmPo(Acai acai) {
-        this.acai = acai;
+    public LeiteEmPo() {
         preco = 1.99;
     }
 
     @Override
     public String getDescricao() {
-        return acai.getDescricao();
+        return " com leite em pó";
     }
 
-    @Override
     public double getPreco() {
-        return acai.getPreco() + preco;
+        return preco;
     }
 }

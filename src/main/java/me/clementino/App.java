@@ -1,7 +1,7 @@
 package me.clementino;
 
-import me.clementino.solution.acompanhamentos.LeiteEmPo;
-import me.clementino.solution.acompanhamentos.Morango;
+//import me.clementino.solution.acompanhamentos.LeiteEmPo;
+//import me.clementino.solution.acompanhamentos.Morango;
 import me.clementino.v1.AcaiNaBarcaComMorango;
 import me.clementino.v1.AcaiNaBarcaComMorangoELeiteEmPo;
 import me.clementino.v1.AcaiNaTigelaComMorango;
@@ -45,11 +45,11 @@ public final class App {
         //A partir dessa linha vem a solução do problema utilizando padrão de projeto
         System.out.println("****INICIO DO TRABALHO PRATICO****");
 
-        Acai acai8 = new Morango(new AcaiNaTigela(GRANDE));
-        System.out.println(acai8);
-
-        Acai acai9 = new LeiteEmPo(new Morango(new AcaiNaBarca(GRANDE)));
-        System.out.println(acai9);
+//        Acai acai8 = new Morango(new AcaiNaTigela(GRANDE));
+//        System.out.println(acai8);
+//
+//        Acai acai9 = new LeiteEmPo(new Morango(new AcaiNaBarca(GRANDE)));
+//        System.out.println(acai9);
 
         System.out.println("****FIM DO TRABALHO PRATICO****");
     }
