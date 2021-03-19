@@ -1,15 +1,17 @@
 package me.clementino;
 
-import me.clementino.domain.acompanhamentos.AcaiNaBarcaComMorango;
-import me.clementino.domain.acompanhamentos.AcaiNaBarcaComMorangoELeiteEmPo;
-import me.clementino.domain.acompanhamentos.AcaiNaTigelaComMorango;
-import me.clementino.domain.acompanhamentos.AcaiNoCopoComMorango;
-import me.clementino.domain.base.Acai;
-import me.clementino.domain.tipos.AcaiNaBarca;
-import me.clementino.domain.tipos.AcaiNaTigela;
-import me.clementino.domain.tipos.AcaiNoCopo;
+//import me.clementino.solution.acompanhamentos.LeiteEmPo;
+//import me.clementino.solution.acompanhamentos.Morango;
+import me.clementino.v1.AcaiNaBarcaComMorango;
+import me.clementino.v1.AcaiNaBarcaComMorangoELeiteEmPo;
+import me.clementino.v1.AcaiNaTigelaComMorango;
+import me.clementino.v1.AcaiNoCopoComMorango;
+import me.clementino.v1.base.Acai;
+import me.clementino.v1.base.AcaiNaBarca;
+import me.clementino.v1.base.AcaiNaTigela;
+import me.clementino.v1.base.AcaiNoCopo;
 
-import static me.clementino.domain.base.Tamanho.*;
+import static me.clementino.v1.base.Tamanho.*;
 
 /**
  * Classe principal da Asaideira!
@@ -39,5 +41,16 @@ public final class App {
 
         Acai acai7 = new AcaiNaBarcaComMorangoELeiteEmPo(GRANDE);
         System.out.println(acai7);
+
+        //A partir dessa linha vem a solução do problema utilizando padrão de projeto
+        System.out.println("****INICIO DO TRABALHO PRATICO****");
+
+//        Acai acai8 = new Morango(new AcaiNaTigela(GRANDE));
+//        System.out.println(acai8);
+//
+//        Acai acai9 = new LeiteEmPo(new Morango(new AcaiNaBarca(GRANDE)));
+//        System.out.println(acai9);
+
+        System.out.println("****FIM DO TRABALHO PRATICO****");
     }
 }
