@@ -1,4 +1,4 @@
-package me.clementino.domain.base;
+package me.clementino.v1.base;
 
 
 import java.util.Arrays;

@@ -1,18 +1,15 @@
-package me.clementino.domain.tipos;
-
-import me.clementino.domain.base.Acai;
-import me.clementino.domain.base.Tamanho;
+package me.clementino.v1.base;
 
 public class AcaiNaTigela extends Acai {
 
     public AcaiNaTigela(Tamanho tamanho) {
-        super.setTamanho(tamanho);
-        super.setDescricao("Acaí na tigela");
+        this.tamanho = tamanho;
+        this.descricao = "Acaí na tigela";
     }
 
     @Override
-    public double cost() {
-        switch (super.getTamanho()) {
+    public double getPreco() {
+        switch (tamanho) {
             case GRANDE:
                 return 12.99;
             case MEDIO:
