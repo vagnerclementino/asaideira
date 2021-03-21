@@ -1,8 +1,8 @@
 package me.clementino.v1;
 
 import me.clementino.v1.acompanhamentos.LeiteEmPo;
-import me.clementino.v1.base.Acai;
-import me.clementino.v1.base.Tamanho;
+import me.clementino.v1.acai.Acai;
+import me.clementino.v1.acai.Tamanho;
 
 public class AcaiNaBarcaComMorangoELeiteEmPo extends Acai {
 

@@ -1,6 +1,6 @@
 package me.clementino.solution.acompanhamentos;
 
-public class LeiteEmPo extends PadraoDeProjeto {
+public class LeiteEmPo {
 
     private final double preco;
 
@@ -8,7 +8,7 @@ public class LeiteEmPo extends PadraoDeProjeto {
         preco = 1.99;
     }
 
-    @Override
+
     public String getDescricao() {
         return " com leite em pó";
     }

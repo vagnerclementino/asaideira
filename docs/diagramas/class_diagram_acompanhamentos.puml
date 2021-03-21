@@ -1,0 +1,73 @@
+@startuml "class_diagram_acompanhamentos"
+
+title "Diagrama de Classe - Acompanhamentos"
+
+enum Tamanho {
+    PEQUENO
+    MEDIO
+    GRANDE
+}
+
+abstract class Acai << abstract >>{
+    #String descricao
+    #Tamanho tamanho
+    +{abstract} double getPreco()
+    + String getDescricao()
+    + Tamanho getTamanho()
+}
+
+note left of Acai::"getPreco()"
+Método abstrato que deve ser
+implmentado por toda Classe
+que herda de <b>Acai</b>
+end note
+
+class AcaiNaBarca
+class AcaiNaTigela
+class AcaiNoCopo
+
+class Morango{
+    -double preco
+    +double getPreo()
+}
+
+class AcaiNaBarcaComMorango{
+    -AcaiNaBarca acaiNaBarca
+    -Morango morango
+}
+
+class AcaiNaTigelaComMorango{
+    -AcaiNaTigela AcaiNaTigela
+    -Morango morango
+}
+
+class AcaiNoCopoComMorango{
+    -AcaiNoCopo AcaiNoCopo
+    -Morango morango
+}
+
+class AcaiNaBarcaComMorangoELeiteEmPo{
+    -AcaiNaBarca acaiNaBarca
+    -Morango morango
+    -LeiteEmPo leiteEmPo
+}
+
+class Morango{
+    -double preco
+    +double getPreco()
+}
+
+class LeiteEmPo{
+    -double preco
+    +double getPreco()
+}
+
+Acai <|-- AcaiNaBarca
+Acai <|-- AcaiNaTigela
+Acai <|-- AcaiNoCopo
+Acai <|-- AcaiNaBarcaComMorango
+Acai <|-- AcaiNaTigelaComMorango
+Acai <|-- AcaiNoCopoComMorango
+Acai <|-- AcaiNaBarcaComMorangoELeiteEmPo
+
+@enduml

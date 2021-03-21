@@ -6,12 +6,12 @@ import me.clementino.v1.AcaiNaBarcaComMorango;
 import me.clementino.v1.AcaiNaBarcaComMorangoELeiteEmPo;
 import me.clementino.v1.AcaiNaTigelaComMorango;
 import me.clementino.v1.AcaiNoCopoComMorango;
-import me.clementino.v1.base.Acai;
-import me.clementino.v1.base.AcaiNaBarca;
-import me.clementino.v1.base.AcaiNaTigela;
-import me.clementino.v1.base.AcaiNoCopo;
+import me.clementino.v1.acai.Acai;
+import me.clementino.v1.acai.tipos.AcaiNaBarca;
+import me.clementino.v1.acai.tipos.AcaiNaTigela;
+import me.clementino.v1.acai.tipos.AcaiNoCopo;
 
-import static me.clementino.v1.base.Tamanho.*;
+import static me.clementino.v1.acai.Tamanho.*;
 
 /**
  * Classe principal da Asaideira!
