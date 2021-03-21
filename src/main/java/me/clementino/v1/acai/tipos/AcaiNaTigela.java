@@ -1,4 +1,7 @@
-package me.clementino.v1.base;
+package me.clementino.v1.acai.tipos;
+
+import me.clementino.v1.acai.Acai;
+import me.clementino.v1.acai.Tamanho;
 
 public class AcaiNaTigela extends Acai {
 

@@ -1,0 +1,33 @@
+@startuml "class_diagram_acai"
+
+title "Diagrama de Classe - Asaideira"
+
+enum Tamanho {
+    PEQUENO
+    MEDIO
+    GRANDE
+}
+
+abstract class Acai << abstract >>{
+    #String descricao
+    #Tamanho tamanho
+    +{abstract} double getPreco()
+    + String getDescricao()
+    + Tamanho getTamanho()
+}
+
+note left of Acai::"getPreco()"
+Método abstrato que deve ser
+implementado por toda classe
+que herda de <b>Acai</b>
+end note
+
+class AcaiNaBarca
+class AcaiNaTigela
+class AcaiNoCopo
+
+Acai <|-- AcaiNaBarca
+Acai <|-- AcaiNaTigela
+Acai <|-- AcaiNoCopo
+
+@enduml

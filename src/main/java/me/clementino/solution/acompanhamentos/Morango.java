@@ -1,6 +1,6 @@
 package me.clementino.solution.acompanhamentos;
 
-public class Morango extends PadraoDeProjeto {
+public class Morango{
 
     private final double preco;
 

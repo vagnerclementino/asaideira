@@ -1,9 +1,9 @@
 package me.clementino.v1;
 
 import me.clementino.v1.acompanhamentos.Morango;
-import me.clementino.v1.base.Acai;
-import me.clementino.v1.base.AcaiNaTigela;
-import me.clementino.v1.base.Tamanho;
+import me.clementino.v1.acai.Acai;
+import me.clementino.v1.acai.tipos.AcaiNaTigela;
+import me.clementino.v1.acai.Tamanho;
 
 public class AcaiNaTigelaComMorango extends Acai {
 

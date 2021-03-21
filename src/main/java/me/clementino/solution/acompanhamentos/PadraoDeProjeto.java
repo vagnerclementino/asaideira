@@ -1,6 +1,6 @@
 package me.clementino.solution.acompanhamentos;
 
-import me.clementino.v1.base.Tamanho;
+import me.clementino.v1.acai.Tamanho;
 
 public class PadraoDeProjeto {
 
